@@ -4,9 +4,9 @@ working area for documents related to sherlock demo
 Timeline activities
  - familiarize with Scrapy (as stated previously)
  - prototype some simple scraping use case (the Scrapy 'hello world' example)
+ - fill out this document, breaking down system components, describing data, use cases
 
-Decision: we will use Vagrant to provision and run sherlock demo in (and make
-   easily shareable) a virtual machine
+Decision: we will use Vagrant to provision and run sherlock demo in (and make easily shareable) a virtual machine
    
 Stream-of-consciousness Questions:
 0. Configuration: how to configure e.g. Scrapy
@@ -53,6 +53,19 @@ deactivate # leaves virtualenv
   * Something to parse JSON output from Scrapy
   * User Interface code
     We have stuff that can be re-used, implemented in a mixture of html, javascript, and PHP. It's not clear what tools or development environment (if any) were used to produce these, and some outside expertise will be likely. I've banged my head against the code trying to work out how it works, but it's unlike any normal/familiar programming language in terms of control flow and data structures
+    
+Domains for the system - "pick one" - list more here:
+  * child exploitation / escort+massage services
+    - Sources to scrape: backpage.com, cityvibe.com, eros.com, humaniplex.com, myredbook.com, and sugardaddyforme.com, eroticmp.com and theeroticreview.com
+  * illegal immigration
+  * human trafficking
+  * news gathering
+  * finance / corporate / stock tracking
+  
+Where's the NLP:
+  Surely there's some magic NLP processing we do to provide the value-added 'special sauce' that differentiates this from off-the-shelf tools
+  * Named entity recognition
+  * Regular expressions
 
 Data types/structures: 
   * use XML to represent results of Scrapy queries
@@ -60,6 +73,8 @@ Data types/structures:
   * a list of tags to follow to do recursion (blog/newsfeed type site specific)
   * how to represent results?
   * "plugin" - can we define a set of plugin types for different info retrieval needs
+  * Time stamping of data for trend detection
+  * Canonicalization based on keys (name, location, but mostly phone number)
 
 Plugins: how should we design our system to open up things at a level that makes sense? Plugin-based architectures are wonderful for people who want to develop and add their own. But there will have to be a spec of some kind. And maybe "create a SHERLOCK plugin" is not a use case we need or want to support.
 
