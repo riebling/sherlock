@@ -1,0 +1,42 @@
+-- VERSION_4
+-- START DISKCACHE_2
+/usr1/er1k/sherlock/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/scrapyProject/com.python.pydev.analysis/v2_indexcache
+myspider|1488924125000000000|/usr1/er1k/sherlock/eclipse-workspace/scrapyProject/myspider.py
+-- END DISKCACHE
+-- START DICTIONARY
+5
+4=Scrapable.__init__
+2=Scrapable
+5=ScrapeSpider.__init__
+1=myspider
+3=ScrapeSpider
+-- END DICTIONARY
+-- START TREE 1
+15
+b|1|b!11@
+b3|1|b3!11@
+cal|2|callback_scrape!10@callback_quit!10@
+cho|3|chosenOuter!11@chosenXpath!11@chosenUrl!11@
+e|1|e!11@
+i|1|i!11@
+mys|1|myScrapable!11@
+o|1|o!11@
+out|1|outers!11@
+roo|1|root!11@
+run|2|running!11@runner!11@
+scr|2|Scrapable!9@ScrapeSpider!9@
+tex|1|tex!11@
+url|1|urls!11@
+xpa|1|xpaths!11@
+-- END TREE
+-- START TREE 2
+8
+__i|2|__init__!2&10@__init__!3&10@
+ele|2|element!2&11@element!4&11@
+nam|1|name!3&11@
+out|4|outer!2&11@outer!4&11@outer!3&11@outer!5&11@
+par|1|parse!3&10@
+sta|2|start_requests!3&10@start_urls!3&11@
+url|2|url!2&11@url!4&11@
+xpa|4|xpath!2&11@xpath!4&11@xpath!3&11@xpath!5&11@
+-- END TREE

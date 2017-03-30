@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pydev-testrun version="1.0"?><pydev-testsuite>
+<summary errors="1" failures="0" finished="true" name="Test Run: 7" tests="0" total_time="Finished in: 0.00 secs."/>
+<test location="/usr1/er1k/sherlock/eclipse-workspace/scrapyProject/myspider.py" status="error" test="myspider" time="0">
+<stdout/>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "/usr1/er1k/.p2/pool/plugins/org.python.pydev_5.5.0.201701191708/pysrc/_pydev_runfiles/pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "/usr1/er1k/sherlock/eclipse-workspace/scrapyProject/myspider.py", line 85, in <module>
+    mainloop()
+  File "/usr/lib/python3.5/tkinter/__init__.py", line 408, in mainloop
+    _default_root.tk.mainloop(n)
+  File "/usr/lib/python3.5/tkinter/__init__.py", line 1553, in __call__
+    return self.func(*args)
+  File "/usr1/er1k/sherlock/eclipse-workspace/scrapyProject/myspider.py", line 73, in callback_quit
+    sys.exit()
+SystemExit
+ERROR: Module: myspider could not be imported (file: /usr1/er1k/sherlock/eclipse-workspace/scrapyProject/myspider.py).
+]]></stderr>
+</test>
+<launch mode="run">
+<launch_memento><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration local="true" path="scrapyProject scrapyProject"/>
+]]></launch_memento>
+</launch>
+</pydev-testsuite>

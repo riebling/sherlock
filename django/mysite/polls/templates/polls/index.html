@@ -1,0 +1,11 @@
+<title>Django test based on Polls</title>
+{% if urls_list %}
+    <h1>List of URLs to Scrape</h1>
+    <ul>
+    {% for question in urls_list %}
+        <li><a href="/polls/{{ url_text }}/">{{ question.url_text }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No URLs are available.</p>
+{% endif %}

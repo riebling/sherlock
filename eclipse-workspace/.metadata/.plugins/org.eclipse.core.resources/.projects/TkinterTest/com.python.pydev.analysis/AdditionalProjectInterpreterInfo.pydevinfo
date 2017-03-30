@@ -1,0 +1,21 @@
+-- VERSION_4
+-- START DISKCACHE_2
+/usr1/er1k/sherlock/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/TkinterTest/com.python.pydev.analysis/v2_indexcache
+tkinterTest|1488481581000000000|/usr1/er1k/sherlock/eclipse-workspace/TkinterTest/tkinterTest.py
+tkinterTest.__init__|1488481611000000000|/usr1/er1k/sherlock/eclipse-workspace/TkinterTest/tkinterTest/__init__.py
+-- END DISKCACHE
+-- START DICTIONARY
+1
+1=tkinterTest
+-- END DICTIONARY
+-- START TREE 1
+5
+b|1|b!11@
+b2|1|b2!11@
+b3|1|b3!11@
+cal|3|callback_quit!10@callback_quotes!10@callback_blog!10@
+roo|1|root!11@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE
