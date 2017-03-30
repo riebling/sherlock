@@ -104,3 +104,5 @@ What are the basic things a person using the system can/will do? We should list 
      - in a file
      - in a RDBMS
 
+ADDENDUM: using Scrapinghub.com and the Portia tool (which can run locally on your own server; it's open source and available via GitHub) - can accomplish almost all of these use cases!  This leaves the real 'meat' of the project to be done to the RDMS data scraped as a result: doing analytics, monitoring changes over time, that sort of thing.
+
